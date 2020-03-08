@@ -1,0 +1,1 @@
+# trendspotting.site
