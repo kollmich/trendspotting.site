@@ -13,8 +13,8 @@
 		<meta name='description' content='Michal Kollar's portfolio'>
 		<meta name='author' content='Michal Kollar'>
 		<meta name='news_keywords' content='data analyst, visual journalist, interactive developer, data journalism, creative coder, javascript, programming, html5, processing, canvas, d3, data visualization'>
-		<link rel="icon" type="image/png" sizes="32x32" href="img/scatterspot-favicon-large.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="img/scatterspot-favicon-large.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-large.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-small.png">
 		<style>
 			/* roboto-300 - latin */
 @font-face {
@@ -115,16 +115,29 @@ a:hover {
 
 
 .intro {
-	max-width: 680px;
+	max-width: 780px;
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.logo {
+	width: 28px;
+	height: 28px;
+	margin-right: 10px;
+	display: inline-block;
+	vertical-align: bottom;
 }
 
 .intro-hed {
-	font-size: 1.35em;
+	font-size: 1.25em;
 	margin-bottom: 1em;
+	display: inline;
 }
 
 .title {
+	font-size: 25px;
 	font-weight: 800;
+	line-height: 1.2;
 }
 
 .container {
@@ -191,9 +204,8 @@ footer p {
 	<body>
 		<div class='container'>
 			<div class='intro'>
-				<h1 class='intro-hed'>
-					<p><tspan class='title'>trendspotting</tspan> (trendspɒtɪŋ) or trend-spotting is the hobby of watching for and noting particular examples of math patterns or stories behind data.</p>
-				</h1>
+				<p class='title'><img src="img/logo.png" class="logo" alt="logo"/>trendspotting</p>
+				<p class='intro-hed'>(trendspɒtɪŋ) or trend-spotting is the hobby of watching for and noting particular examples of math patterns or stories behind data.</p>
 			</div>
 			<div class='projects'>
 				

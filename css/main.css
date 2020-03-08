@@ -97,16 +97,29 @@ a:hover {
 
 
 .intro {
-	max-width: 680px;
+	max-width: 780px;
+	display: flex;
+	flex-flow: column wrap;
+}
+
+.logo {
+	width: 28px;
+	height: 28px;
+	margin-right: 10px;
+	display: inline-block;
+	vertical-align: bottom;
 }
 
 .intro-hed {
-	font-size: 1.35em;
+	font-size: 1.25em;
 	margin-bottom: 1em;
+	display: inline;
 }
 
 .title {
+	font-size: 25px;
 	font-weight: 800;
+	line-height: 1.2;
 }
 
 .container {
