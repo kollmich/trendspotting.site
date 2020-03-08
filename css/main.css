@@ -97,12 +97,16 @@ a:hover {
 
 
 .intro {
-	max-width: 480px;
+	max-width: 680px;
 }
 
 .intro-hed {
 	font-size: 1.35em;
 	margin-bottom: 1em;
+}
+
+.title {
+	font-weight: 800;
 }
 
 .container {

@@ -17,7 +17,7 @@ update:
 	npm run start
 
 aws-html:
-	aws s3 sync . s3://michalkollar.com
+	aws s3 sync . s3://trendspotting.site
 
 go: update aws-html
 
