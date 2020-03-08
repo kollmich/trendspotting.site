@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang='en'>
+	<head>
+		<script>
+			window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+			ga('create', 'UA-148892211-1', 'auto');
+			ga('send', 'pageview');
+			</script>
+		<script async src='https://www.google-analytics.com/analytics.js'></script>
+		<meta charset='utf-8'>
+		<title>Michal Kollar</title>
+		<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+		<meta name='description' content='Michal Kollar's portfolio'>
+		<meta name='author' content='Michal Kollar'>
+		<meta name='news_keywords' content='data analyst, visual journalist, interactive developer, data journalism, creative coder, javascript, programming, html5, processing, canvas, d3, data visualization'>
+		<link rel="icon" type="image/png" sizes="32x32" href="img/scatterspot-favicon-large.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/scatterspot-favicon-large.png">
+		<style>
+			/* style */
+		</style>
+	</head>
+	<body>
+		<div class='container'>
+			<div class='intro'>
+				<h1 class='intro-hed'>
+					<strong>Michal Kollar</strong> is my name and this is my secret data visualisation playground. Feel free to roam around since you've made it so far.
+				</h1>
+			</div>
+			<div class='projects'>
+				<!-- projects -->
+			</div>
+			<div class='open-sources pad'>
+				<!-- open-source -->
+			</div>
+		</div>
+	</body>
+</html>
