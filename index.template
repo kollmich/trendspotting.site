@@ -19,11 +19,14 @@
 			/* style */
 		</style>
 	</head>
+	<header>
+		<p class='title'><img src="img/logo.png" class="logo" alt="logo"/>trendspotting</p>
+	</header>
 	<body>
 		<div class='container'>
 			<div class='intro'>
-				<p class='title'><img src="img/logo.png" class="logo" alt="logo"/>trendspotting</p>
-				<p class='intro-hed'>(trendspɒtɪŋ) or trend-spotting is the hobby of watching for and noting particular examples of math patterns or stories behind data.</p>
+				<p class='intro-hed'>Trend spotting (trendspɒtɪŋ) or trend-spotting is the hobby of noting and collecting particular examples of math patterns or stories behind data.</p>
+				<div class="line_div"></div>
 			</div>
 			<div class='projects'>
 				<!-- projects -->
@@ -32,5 +35,7 @@
 				<!-- open-source -->
 			</div>
 		</div>
+		<script src='scripts/d3.v5.12.0.min.js'></script>
+		<script src='scripts/sticky.js' async></script>
 	</body>
 </html>

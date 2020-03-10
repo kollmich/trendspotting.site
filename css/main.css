@@ -94,7 +94,30 @@ a:hover {
 	color: #181818;
 }
 
+header {
+	width: 100%;
+	padding: 1.5em 1em 0em 1em;
+}
 
+header p {
+	margin: 0;
+}
+
+header.clone {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	/* width: 100vw; */
+	background-color: white;
+	padding: 1em;
+	transform: translateY(-100%);
+	transition: 0.2s transform cubic-bezier(.3,.73,.3,.74);
+}
+  
+body.down header.clone {
+	transform: translateY(0);
+}
 
 .intro {
 	max-width: 780px;
@@ -112,7 +135,7 @@ a:hover {
 
 .intro-hed {
 	font-size: 1.25em;
-	margin-bottom: 1em;
+	margin-bottom: 0.7em;
 	display: inline;
 }
 
@@ -120,6 +143,11 @@ a:hover {
 	font-size: 25px;
 	font-weight: 800;
 	line-height: 1.2;
+}
+
+.line_div {
+	width: 40%;
+	border-bottom: #5b5b5b solid 2.5px;
 }
 
 .container {
@@ -151,6 +179,12 @@ footer p {
 }
 
 @media only screen and (min-width: 540px) {
+	header {
+		padding: 1.5em 2em 0em 2em;
+	}
+	header.close {
+		padding: 1em;
+	}
 	.intro {
 		padding: 1em;
 	}
@@ -164,6 +198,9 @@ footer p {
 	}
 	.pad {
 		padding: 0 1em;
+	}
+	.line_div {
+		width: 350px;
 	}
 }
 

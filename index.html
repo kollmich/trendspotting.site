@@ -112,7 +112,30 @@ a:hover {
 	color: #181818;
 }
 
+header {
+	width: 100%;
+	padding: 1.5em 1em 0em 1em;
+}
 
+header p {
+	margin: 0;
+}
+
+header.clone {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	/* width: 100vw; */
+	background-color: white;
+	padding: 1em;
+	transform: translateY(-100%);
+	transition: 0.2s transform cubic-bezier(.3,.73,.3,.74);
+}
+  
+body.down header.clone {
+	transform: translateY(0);
+}
 
 .intro {
 	max-width: 780px;
@@ -130,7 +153,7 @@ a:hover {
 
 .intro-hed {
 	font-size: 1.25em;
-	margin-bottom: 1em;
+	margin-bottom: 0.7em;
 	display: inline;
 }
 
@@ -138,6 +161,11 @@ a:hover {
 	font-size: 25px;
 	font-weight: 800;
 	line-height: 1.2;
+}
+
+.line_div {
+	width: 40%;
+	border-bottom: #5b5b5b solid 2.5px;
 }
 
 .container {
@@ -169,6 +197,12 @@ footer p {
 }
 
 @media only screen and (min-width: 540px) {
+	header {
+		padding: 1.5em 2em 0em 2em;
+	}
+	header.close {
+		padding: 1em;
+	}
 	.intro {
 		padding: 1em;
 	}
@@ -182,6 +216,9 @@ footer p {
 	}
 	.pad {
 		padding: 0 1em;
+	}
+	.line_div {
+		width: 350px;
 	}
 }
 
@@ -201,14 +238,107 @@ footer p {
 
 		</style>
 	</head>
+	<header>
+		<p class='title'><img src="img/logo.png" class="logo" alt="logo"/>trendspotting</p>
+	</header>
 	<body>
 		<div class='container'>
 			<div class='intro'>
-				<p class='title'><img src="img/logo.png" class="logo" alt="logo"/>trendspotting</p>
-				<p class='intro-hed'>(trendspɒtɪŋ) or trend-spotting is the hobby of watching for and noting particular examples of math patterns or stories behind data.</p>
+				<p class='intro-hed'>Trend spotting (trendspɒtɪŋ) or trend-spotting is the hobby of noting and collecting particular examples of math patterns or stories behind data.</p>
+				<div class="line_div"></div>
 			</div>
 			<div class='projects'>
 				
+		<div class='project'>
+			<div class='project__image'>
+				<a target='_blank' href='http://michalkollar.com/2019/September/wiki-death-tolls/index.html'><img src='img/death-tolls.jpg' /></a>
+			</div>
+			<p class='project__description'><a href='http://michalkollar.com/2019/September/wiki-death-tolls/index.html'>A single death is a tragedy, a million deaths should be remembered.</a> A list of the bloodiest rulers in history. And their death tolls.</p>
+			
+		</div>
+	
+
+		<div class='project'>
+			<div class='project__image'>
+				<a target='_blank' href='http://michalkollar.com/2019/November/emissions/index.html'><img src='img/emissions.jpg' /></a>
+			</div>
+			<p class='project__description'><a href='http://michalkollar.com/2019/November/emissions/index.html'>co2 emissions produced by an average individual.</a> Employing shame for an enviromental change.</p>
+			
+		</div>
+	
+
+		<div class='project'>
+			<div class='project__image'>
+				<a target='_blank' href='http://michalkollar.com/2019/September/wiki-death-tolls/index.html'><img src='img/death-tolls.jpg' /></a>
+			</div>
+			<p class='project__description'><a href='http://michalkollar.com/2019/September/wiki-death-tolls/index.html'>A single death is a tragedy, a million deaths should be remembered.</a> A list of the bloodiest rulers in history. And their death tolls.</p>
+			
+		</div>
+	
+
+		<div class='project'>
+			<div class='project__image'>
+				<a target='_blank' href='http://michalkollar.com/2019/November/emissions/index.html'><img src='img/emissions.jpg' /></a>
+			</div>
+			<p class='project__description'><a href='http://michalkollar.com/2019/November/emissions/index.html'>co2 emissions produced by an average individual.</a> Employing shame for an enviromental change.</p>
+			
+		</div>
+	
+
+		<div class='project'>
+			<div class='project__image'>
+				<a target='_blank' href='http://michalkollar.com/2019/September/wiki-death-tolls/index.html'><img src='img/death-tolls.jpg' /></a>
+			</div>
+			<p class='project__description'><a href='http://michalkollar.com/2019/September/wiki-death-tolls/index.html'>A single death is a tragedy, a million deaths should be remembered.</a> A list of the bloodiest rulers in history. And their death tolls.</p>
+			
+		</div>
+	
+
+		<div class='project'>
+			<div class='project__image'>
+				<a target='_blank' href='http://michalkollar.com/2019/November/emissions/index.html'><img src='img/emissions.jpg' /></a>
+			</div>
+			<p class='project__description'><a href='http://michalkollar.com/2019/November/emissions/index.html'>co2 emissions produced by an average individual.</a> Employing shame for an enviromental change.</p>
+			
+		</div>
+	
+
+		<div class='project'>
+			<div class='project__image'>
+				<a target='_blank' href='http://michalkollar.com/2019/September/wiki-death-tolls/index.html'><img src='img/death-tolls.jpg' /></a>
+			</div>
+			<p class='project__description'><a href='http://michalkollar.com/2019/September/wiki-death-tolls/index.html'>A single death is a tragedy, a million deaths should be remembered.</a> A list of the bloodiest rulers in history. And their death tolls.</p>
+			
+		</div>
+	
+
+		<div class='project'>
+			<div class='project__image'>
+				<a target='_blank' href='http://michalkollar.com/2019/November/emissions/index.html'><img src='img/emissions.jpg' /></a>
+			</div>
+			<p class='project__description'><a href='http://michalkollar.com/2019/November/emissions/index.html'>co2 emissions produced by an average individual.</a> Employing shame for an enviromental change.</p>
+			
+		</div>
+	
+
+		<div class='project'>
+			<div class='project__image'>
+				<a target='_blank' href='http://michalkollar.com/2019/September/wiki-death-tolls/index.html'><img src='img/death-tolls.jpg' /></a>
+			</div>
+			<p class='project__description'><a href='http://michalkollar.com/2019/September/wiki-death-tolls/index.html'>A single death is a tragedy, a million deaths should be remembered.</a> A list of the bloodiest rulers in history. And their death tolls.</p>
+			
+		</div>
+	
+
+		<div class='project'>
+			<div class='project__image'>
+				<a target='_blank' href='http://michalkollar.com/2019/November/emissions/index.html'><img src='img/emissions.jpg' /></a>
+			</div>
+			<p class='project__description'><a href='http://michalkollar.com/2019/November/emissions/index.html'>co2 emissions produced by an average individual.</a> Employing shame for an enviromental change.</p>
+			
+		</div>
+	
+
 		<div class='project'>
 			<div class='project__image'>
 				<a target='_blank' href='http://michalkollar.com/2019/September/wiki-death-tolls/index.html'><img src='img/death-tolls.jpg' /></a>
@@ -231,5 +361,7 @@ footer p {
 				<!-- open-source -->
 			</div>
 		</div>
+		<script src='scripts/d3.v5.12.0.min.js'></script>
+		<script src='scripts/sticky.js' async></script>
 	</body>
 </html>
