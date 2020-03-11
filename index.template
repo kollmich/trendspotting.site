@@ -20,7 +20,13 @@
 		</style>
 	</head>
 	<header>
-		<p class='title'><img src="img/logo.png" class="logo" alt="logo"/>trendspotting</p>
+		<div class="dropdown">
+			<p class='title'><img src="img/logo.png" class="logo" alt="logo"/>trendspotting</p>
+			<div class="dropdown-content">
+				<a href="#">I want more</a>
+				<a href="#">About</a>
+			</div>
+		</div>
 	</header>
 	<body>
 		<div class='container'>
@@ -37,5 +43,6 @@
 		</div>
 		<script src='scripts/d3.v5.12.0.min.js'></script>
 		<script src='scripts/sticky.js' async></script>
+		<script src='scripts/navbar.js' async></script>
 	</body>
 </html>

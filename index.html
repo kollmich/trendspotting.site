@@ -112,6 +112,8 @@ a:hover {
 	color: #181818;
 }
 
+
+/* SPECIFICS */
 header {
 	width: 100%;
 	padding: 1.5em 1em 0em 1em;
@@ -121,7 +123,7 @@ header p {
 	margin: 0;
 }
 
-header.clone {
+header.clone  {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -137,10 +139,27 @@ body.down header.clone {
 	transform: translateY(0);
 }
 
-.intro {
-	max-width: 780px;
-	display: flex;
-	flex-flow: column wrap;
+.dropdown-content {
+	display: none;
+	position: absolute;
+	min-width: 160px;
+	z-index: 1;
+	padding: 1.5em;
+}
+
+.dropdown-content a {
+	float: none;
+	color: #5b5b5b;
+	padding: 0 3em;
+	text-decoration: none;
+	display: block;
+	/* line-height: 1.2; */
+}
+
+.visible {
+	display: block;
+	position: absolute;
+	top: 0;
 }
 
 .logo {
@@ -149,6 +168,10 @@ body.down header.clone {
 	margin-right: 10px;
 	display: inline-block;
 	vertical-align: bottom;
+}
+
+.intro {
+	max-width: 780px;
 }
 
 .intro-hed {
@@ -161,11 +184,13 @@ body.down header.clone {
 	font-size: 25px;
 	font-weight: 800;
 	line-height: 1.2;
+	display: inline-block;
 }
 
 .line_div {
 	width: 40%;
 	border-bottom: #5b5b5b solid 2.5px;
+	margin-top: 1em;
 }
 
 .container {
@@ -198,13 +223,20 @@ footer p {
 
 @media only screen and (min-width: 540px) {
 	header {
-		padding: 1.5em 2em 0em 2em;
+		padding: 1.5em 2em;
 	}
 	header.close {
 		padding: 1em;
 	}
+	.visible {
+		display: inline-block;
+	}
+	.dropdown-content a {
+		display: inline-block;
+		text-align: left;
+	}
 	.intro {
-		padding: 1em;
+		padding: 0 1em;
 	}
 	.project {
 		float: left;
@@ -239,7 +271,13 @@ footer p {
 		</style>
 	</head>
 	<header>
-		<p class='title'><img src="img/logo.png" class="logo" alt="logo"/>trendspotting</p>
+		<div class="dropdown">
+			<p class='title'><img src="img/logo.png" class="logo" alt="logo"/>trendspotting</p>
+			<div class="dropdown-content">
+				<a href="#">I want more</a>
+				<a href="#">About</a>
+			</div>
+		</div>
 	</header>
 	<body>
 		<div class='container'>
@@ -363,5 +401,6 @@ footer p {
 		</div>
 		<script src='scripts/d3.v5.12.0.min.js'></script>
 		<script src='scripts/sticky.js' async></script>
+		<script src='scripts/navbar.js' async></script>
 	</body>
 </html>
