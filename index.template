@@ -21,17 +21,13 @@
 	</head>
 	<header>
 		<div class="dropdown">
-			<p class='title'><img src="img/logo.png" class="logo" alt="logo"/>trendspotting</p>
-			<div class="dropdown-content">
-				<a href="#">I want more</a>
-				<a href="#">About</a>
-			</div>
+			<a class='title' href="html/about.html"><img src="img/logo.png" class="logo" alt="logo"/>trendspotting</a>
 		</div>
 	</header>
 	<body>
 		<div class='container'>
 			<div class='intro'>
-				<p class='intro-hed'>Trend spotting (trendspɒtɪŋ) or trend-spotting is the hobby of noting and collecting particular examples of math patterns or stories behind data.</p>
+				<p class='intro-hed'>Trend spotting [trendspɒtɪŋ] or trend-spotting is the hobby of noting and collecting particular examples of math patterns or stories behind data.</p>
 				<div class="line_div"></div>
 			</div>
 			<div class='projects'>
@@ -43,6 +39,5 @@
 		</div>
 		<script src='scripts/d3.v5.12.0.min.js'></script>
 		<script src='scripts/sticky.js' async></script>
-		<script src='scripts/navbar.js' async></script>
 	</body>
 </html>

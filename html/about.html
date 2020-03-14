@@ -22,8 +22,8 @@
 	font-style: normal;
 	font-weight: 400;
 	src: local('Akkurat Regular'), local('Akkurat-Regular'),
-		 url('fonts/Akkurat-Regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-		 url('fonts/Akkurat-Regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+		 url('../fonts/Akkurat-Regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+		 url('../fonts/Akkurat-Regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* Akkurat-700 - latin */
@@ -32,8 +32,8 @@ font-family: 'Akkurat';
 font-style: normal;
 font-weight: 700;
 src: local('Akkurat Bold'), local('Akkurat-Bold'),
-		url('fonts/Akkurat-Bold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-		url('fonts/Akkurat-Bold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+		url('../fonts/Akkurat-Bold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+		url('../fonts/Akkurat-Bold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* Muli-400 - latin */
@@ -42,8 +42,8 @@ src: local('Akkurat Bold'), local('Akkurat-Bold'),
   font-style: normal;
   font-weight: 400;
   src: local('Muli Regular'), local('Muli-Regular'),
-       url('fonts/Muli-Regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('fonts/Muli-Regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('../fonts/Muli-Regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/Muli-Regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* Muli-700 - latin */
@@ -52,8 +52,8 @@ src: local('Akkurat Bold'), local('Akkurat-Bold'),
   font-style: normal;
   font-weight: 700;
   src: local('Muli Bold'), local('Muli-Bold'),
-       url('fonts/Muli-Bold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('fonts/Muli-Bold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+       url('../fonts/Muli-Bold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/Muli-Bold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* Reset */
@@ -131,6 +131,7 @@ a:hover {
 	text-decoration: none;
 	color: #383838;
 }
+
 
 /* SPECIFICS */
 header {
@@ -258,10 +259,10 @@ footer p {
 .embed-container { position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 
 		</style>
-	</head>
-	<header>
+    </head>
+    <header>
 		<div class="dropdown">
-			<a class='title' href="html/about.html"><img src="img/logo.png" class="logo" alt="logo"/>trendspotting</a>
+			<a class='title' href="../index.html"><img src="../img/logo.png" class="logo" alt="logo"/>trendspotting</a>
 		</div>
 	</header>
 	<body>
@@ -269,32 +270,16 @@ footer p {
 			<div class='intro'>
 				<p class='intro-hed'>Trend spotting [trendspɒtɪŋ] or trend-spotting is the hobby of noting and collecting particular examples of math patterns or stories behind data.</p>
 				<div class="line_div"></div>
-			</div>
+            </div>
+            
 			<div class='projects'>
-				
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_self' href='http://michalkollar.com/2019/September/wiki-death-tolls/index.html'><img src='img/death-tolls.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='http://michalkollar.com/2019/September/wiki-death-tolls/index.html'>A single death is a tragedy, a million deaths should be remembered.</a> A list of the bloodiest rulers in history. And their death tolls.</p>
-			
-		</div>
-	
-
-		<div class='project'>
-			<div class='project__image'>
-				<a target='_self' href='http://trendspotting.site/2020/March/emissions-mini/index.html'><img src='img/emissions.jpg' /></a>
-			</div>
-			<p class='project__description'><a href='http://trendspotting.site/2020/March/emissions-mini/index.html'>co2 emissions produced by an average individual.</a> Employing shame for an enviromental change.</p>
-			
-		</div>
-	
-			</div>
+            </div>
+            
 			<div class='open-sources pad'>
 				<!-- open-source -->
 			</div>
 		</div>
-		<script src='scripts/d3.v5.12.0.min.js'></script>
-		<script src='scripts/sticky.js' async></script>
+		<script src='../scripts/d3.v5.12.0.min.js'></script>
+		<script src='../scripts/sticky.js' async></script>
 	</body>
 </html>
