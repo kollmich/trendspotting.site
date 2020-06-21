@@ -17,6 +17,12 @@
 			"title": "The Oscar Winning Vocabulary.",
 			"description": "Count of bad words used in movies.",
 			"url": "https://trendspotting.site/2020/April/movies/index.html"
+		},
+		{
+			"id": "map_projections",
+			"title": "Map Projections.",
+			"description": "Different Ways to Flatten the Earth.",
+			"url": "https://trendspotting.site/2020/June/map-projections/index.html"
 		}
 	]
 }
